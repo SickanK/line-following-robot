@@ -1,0 +1,7 @@
+{
+    "board": "arduino:avr:uno",
+    "programmer": "ArduinoISP",
+    "output": "build",
+    "port": "COM3",
+    "sketch": "src\\main\\main.ino"
+}

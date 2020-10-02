@@ -1,6 +1,13 @@
+#line 1 "d:\\line-following-robot\\src\\main\\main.ino"
+#line 1 "d:\\line-following-robot\\src\\main\\main.ino"
 #include <Arduino.h>
 #include "./Pins.h"
 
+#line 4 "d:\\line-following-robot\\src\\main\\main.ino"
+void setup();
+#line 15 "d:\\line-following-robot\\src\\main\\main.ino"
+void loop();
+#line 4 "d:\\line-following-robot\\src\\main\\main.ino"
 void setup()
 {
   Serial.begin(9600);
@@ -18,3 +25,4 @@ void loop()
   //Serial.println(digitalRead(SENSORPIN2));
   delay(200);
 }
+

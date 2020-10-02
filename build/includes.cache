@@ -1,0 +1,17 @@
+[
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "E:\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
+  },
+  {
+    "Sourcefile": "",
+    "Include": "",
+    "Includepath": "E:\\Arduino\\hardware\\arduino\\avr\\variants\\standard"
+  },
+  {
+    "Sourcefile": "d:\\line-following-robot\\build\\sketch\\main.ino.cpp",
+    "Include": "",
+    "Includepath": ""
+  }
+]

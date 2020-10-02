@@ -1,0 +1,5 @@
+{
+  "arduino.defaultBaudRate": 9600,
+  "port": "COM4",
+  "arduino.enableUSBDetection": false
+}

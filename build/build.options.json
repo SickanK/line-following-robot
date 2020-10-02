@@ -1,0 +1,11 @@
+{
+  "additionalFiles": "\\Pins.h",
+  "builtInLibrariesFolders": "E:\\Arduino\\libraries",
+  "customBuildProperties": "build.path=d:\\line-following-robot\\build,build.warn_data_percentage=75,runtime.tools.avr-gcc.path=E:\\Arduino\\hardware\\tools\\avr,runtime.tools.avrdude.path=E:\\Arduino\\hardware\\tools\\avr,runtime.tools.arduinoOTA.path=E:\\Arduino\\hardware\\tools\\avr",
+  "fqbn": "arduino:avr:uno",
+  "hardwareFolders": "E:\\Arduino\\hardware",
+  "otherLibrariesFolders": "\\\\AKLSRV01\\Folder Redirection\\Sixten\\Documents\\Arduino\\libraries",
+  "runtime.ide.version": "10806",
+  "sketchLocation": "d:\\line-following-robot\\src\\main\\main.ino",
+  "toolsFolders": "E:\\Arduino\\tools-builder,E:\\Arduino\\hardware\\tools\\avr"
+}
