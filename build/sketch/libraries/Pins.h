@@ -1,2 +1,0 @@
-#define PIN_SENSOR1 2
-#define PIN_SENSOR2 3
