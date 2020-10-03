@@ -1,7 +1,6 @@
-# 1 "d:\\line-following-robot\\src\\main\\main.ino"
-# 1 "d:\\line-following-robot\\src\\main\\main.ino"
-# 2 "d:\\line-following-robot\\src\\main\\main.ino" 2
-# 3 "d:\\line-following-robot\\src\\main\\main.ino" 2
+# 1 "d:\\line-following-robot\\src\\app\\app.ino"
+# 2 "d:\\line-following-robot\\src\\app\\app.ino" 2
+# 3 "d:\\line-following-robot\\src\\app\\app.ino" 2
 
 void setup()
 {

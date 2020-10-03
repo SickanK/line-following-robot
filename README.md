@@ -17,3 +17,13 @@ It's basically a robot that is able to follow a line.
 - Analog
   - In use = 0
   - Available = 6
+
+## Todo
+
+- Movement
+  - Turn x amount of degrees to left or right
+  - Go forward
+  - Go backwards
+  - Stop
+  - Line following sensor
+- Get status
