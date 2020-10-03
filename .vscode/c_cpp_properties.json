@@ -9,7 +9,6 @@
         "E:\\\\Arduino\\\\tools\\\\**",
         "E:\\\\Arduino\\\\hardware\\\\tools\\\\**",
         "E:\\\\Arduino\\\\libraries\\\\**",
-        "E:\\Arduino\\hardware\\tools\\avr\\lib/gcc\\avr\\5.4.0\\include",
         "E:\\Arduino\\hardware\\arduino\\avr\\cores\\arduino",
         "E:\\Arduino/hardware\\arduino\\avr\\variants\\standard",
         "E:\\Arduino"
