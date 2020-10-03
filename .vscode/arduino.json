@@ -3,5 +3,5 @@
     "programmer": "ArduinoISP",
     "output": "build",
     "port": "COM3",
-    "sketch": "src\\app\\app.ino"
+    "sketch": "app\\app.ino"
 }
