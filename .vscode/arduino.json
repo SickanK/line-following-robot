@@ -1,7 +1,0 @@
-{
-    "board": "arduino:avr:uno",
-    "programmer": "ArduinoISP",
-    "output": "build",
-    "port": "COM3",
-    "sketch": "app\\app.ino"
-}
