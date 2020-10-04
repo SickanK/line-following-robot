@@ -1,6 +1,6 @@
 # line-following-robot
 
-It's basically a robot that's able to follow a line.
+Basically a robot that's able to follow a line.
 
 ## Components connected to board
 
