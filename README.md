@@ -1,6 +1,6 @@
 # line-following-robot
 
-It's basically a robot that is able to follow a line.
+It's basically a robot that's able to follow a line.
 
 ## Components connected to board
 
@@ -27,3 +27,7 @@ It's basically a robot that is able to follow a line.
   - Stop
   - Line following sensor
 - Get status
+
+## References
+
+- http://rossum.sourceforge.net/papers/DiffSteer/
