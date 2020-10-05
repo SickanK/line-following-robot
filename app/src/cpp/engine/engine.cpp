@@ -18,7 +18,16 @@ void Engine::kill()
     m_motor_right.stop();
 }
 
-void Engine::turn(int amount, bool stop_to_turn, bool direction)
+void Engine::stopTurn(int speed, bool direction)
 {
-    // in progress
+    if(direction) 
+    {
+       m_motor_left.drive(speed);
+       m_motor_right.drive(0);
+    }
+    else
+    {
+       m_motor_left.drive(0);
+       m_motor_right.drive(speed);
+    }
 }
