@@ -1,6 +1,9 @@
 #include <Arduino.h>
 #include "../motor/motor.h"
 
+#ifndef ENGINE_H_INCLUDED
+#define ENGINE_H_INCLUDED
+
 class Engine
 {
 public:
@@ -8,7 +11,7 @@ public:
     bool left = false, right = true;
 
     // Constructor
-    Engine(Motor motor_left, Motor motor_right);
+    Engine(Motor motorLeft, Motor motorRight);
     Engine() = default;
 
     // Drive motors either forwards if positive integer by @speed
@@ -25,10 +28,12 @@ public:
     //void turn(int amount, bool direction);
 
     // Vehicle stops and then turns @speed amount in @direction
-    // @params speed - speed of wheel that turns 
+    // @params speed - speed of wheel that turns
     // @params direction - Direction to turn with predefined variables
     void stopTurn(int speed, bool direction);
 
 protected:
-    Motor m_motor_left, m_motor_right;
+    Motor m_motorLeft, m_motorRight;
 };
+
+#endif

@@ -1,10 +1,13 @@
 #include <Arduino.h>
 
+#ifndef MOTOR_H_INCLUDED
+#define MOTOR_H_INCLUDED
+
 class Motor
 {
 public:
     // Constructor, sets up pins
-    Motor(int pin_in_1, int pin_in_2, int pin_pwm, int pin_stby, int offset);
+    Motor(int pinIn1, int pinIn2, int pinPwm, int pinStby, int offset);
     Motor() = default;
 
     // Drive motor forwards or backwards with offset in mind
@@ -25,5 +28,7 @@ private:
 
 protected:
     // Pins
-    int m_in_1, m_in_2, m_pwm, m_standby, m_offset;
+    int m_In1, m_In2, m_pwm, m_standby, m_offset;
 };
+
+#endif
