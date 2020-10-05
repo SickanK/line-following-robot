@@ -14,22 +14,21 @@ public:
     Engine(Motor motorLeft, Motor motorRight);
     Engine() = default;
 
-    // Drive motors either forwards if positive integer by @speed
-    // or backwards for negative integer
-    // @params speed - motor speed negative or positive
+    // Drive motors either forwards or backwards
+    // @param speed Motor speed negative or positive
     void drive(int speed);
 
     // Puts both motors in standby
     void kill();
 
     // Turns the vehicle @amount of degrees in any angle
-    // @params amount - Amount of turn in degrees
-    // @params direction - Direction to turn with predefined variables
+    // @param amount Amount of turn in degrees
+    // @param direction Direction to turn
     //void turn(int amount, bool direction);
 
     // Vehicle stops and then turns @speed amount in @direction
-    // @params speed - speed of wheel that turns
-    // @params direction - Direction to turn with predefined variables
+    // @param speed Speed of wheel that turns
+    // @param direction Direction to turn
     void stopTurn(int speed, bool direction);
 
 protected:

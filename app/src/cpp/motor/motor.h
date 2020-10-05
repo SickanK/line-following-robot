@@ -11,7 +11,7 @@ public:
     Motor() = default;
 
     // Drive motor forwards or backwards with offset in mind
-    // @params speed - motor speed
+    // @param speed Motor speed
     void drive(int speed);
 
     // Set motor speed to 0
@@ -22,13 +22,13 @@ public:
 
 private:
     // Used in drive function
-    // @params speed - motor speed
+    // @param speed Motor speed
     void forward(int speed);
     void reverse(int speed);
 
 protected:
     // Pins
-    int m_In1, m_In2, m_pwm, m_standby, m_offset;
+    int m_in1, m_in2, m_pwm, m_standby, m_offset;
 };
 
 #endif

@@ -10,11 +10,11 @@ public:
     // Constructor to setup pin
     LineSensor(int sensorPin);
 
-    // Get internal reading variable
+    // Getter for line sensor
     int getReading() const { return internalReading; };
 
-    // Set internal reading variable
-    // @params reading - reading value from sensor
+    // Setter for line sensor
+    // @param reading Reading from linesensor
     void setReading(int reading);
 
 protected:

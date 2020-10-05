@@ -1,9 +1,8 @@
 #include "engine.h"
 
 Engine::Engine(Motor motorLeft, Motor motorRight)
+    : m_motorLeft(motorLeft), m_motorRight(motorRight)
 {
-    m_motorLeft = motorLeft;
-    m_motorRight = motorRight;
 }
 
 void Engine::drive(int speed)
