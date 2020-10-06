@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
-#ifndef MOTOR_H_INCLUDED
-#define MOTOR_H_INCLUDED
+#ifndef MOTORCONTROLLER_H_INCLUDED
+#define MOTORCONTROLLER_H_INCLUDED
 
 class MotorController
 {

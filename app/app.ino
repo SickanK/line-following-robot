@@ -10,20 +10,20 @@ Engine engine(motor1, motor2);
 void app(LineSensor lineSensorLeft, LineSensor lineSensorRight, Engine engine)
 {
   // Read sensor signal
-  lineSensorLeft.setReading(digitalRead(lineSensorLeft.pin));
-  lineSensorRight.setReading(digitalRead(lineSensorRight.pin));
+  lineSensorLeft.setReading();
+  lineSensorRight.setReading();
 
   // Check for derailment
   while (lineSensorLeft.getReading())
   {
-    lineSensorLeft.setReading(digitalRead(lineSensorLeft.pin));
+    lineSensorLeft.setReading();
     engine.stopTurn(255, engine.right);
     delay(500);
   };
 
   while (lineSensorRight.getReading())
   {
-    lineSensorRight.setReading(digitalRead(lineSensorRight.pin));
+    lineSensorRight.setReading();
     engine.stopTurn(255, engine.left);
     delay(500);
   };
