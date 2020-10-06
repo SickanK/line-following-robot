@@ -1,11 +1,11 @@
 #include "Engine.h"
 
-Engine::Engine(Motor motorLeft, Motor motorRight)
+Engine::Engine(MotorController motorLeft, MotorController motorRight)
     : m_motorLeft(motorLeft), m_motorRight(motorRight)
 {
 }
 
-void Engine::drive(int speed)
+void Engine::drive(int16_t speed)
 {
     m_motorLeft.drive(speed);
     m_motorRight.drive(speed);
@@ -17,7 +17,7 @@ void Engine::kill()
     m_motorRight.stop();
 }
 
-void Engine::stopTurn(int speed, bool direction)
+void Engine::stopTurn(int16_t speed, bool direction)
 {
     if (direction)
     {

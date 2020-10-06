@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "../motor/Motor.h"
+#include "../motor-controller/MotorController.h"
 
 #ifndef ENGINE_H_INCLUDED
 #define ENGINE_H_INCLUDED
@@ -11,12 +11,12 @@ public:
     bool left = false, right = true;
 
     // Constructor
-    Engine(Motor motorLeft, Motor motorRight);
+    Engine(MotorController motorLeft, MotorController motorRight);
     Engine() = default;
 
     // Drive motors either forwards or backwards
     // @param speed Motor speed negative or positive
-    void drive(int speed);
+    void drive(int16_t speed);
 
     // Puts both motors in standby
     void kill();
@@ -29,10 +29,10 @@ public:
     // Vehicle stops and then turns @speed amount in @direction
     // @param speed Speed of wheel that turns
     // @param direction Direction to turn
-    void stopTurn(int speed, bool direction);
+    void stopTurn(int16_t speed, bool direction);
 
 protected:
-    Motor m_motorLeft, m_motorRight;
+    MotorController m_motorLeft, m_motorRight;
 };
 
 #endif

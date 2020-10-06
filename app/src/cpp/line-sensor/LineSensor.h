@@ -8,14 +8,14 @@ class LineSensor
 public:
     int pin;
     // Constructor to setup pin
-    LineSensor(int sensorPin);
+    LineSensor(uint8_t sensorPin);
 
     // Getter for line sensor
-    int getReading() const { return internalReading; };
+    uint8_t getReading() const { return internalReading; };
 
     // Setter for line sensor
     // @param reading Reading from linesensor
-    void setReading(int reading);
+    void setReading(uint8_t reading);
 
 protected:
     int internalReading = 0;

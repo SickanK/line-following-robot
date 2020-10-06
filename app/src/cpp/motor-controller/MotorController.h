@@ -3,15 +3,15 @@
 #ifndef MOTOR_H_INCLUDED
 #define MOTOR_H_INCLUDED
 
-class Motor
+class MotorController
 {
 public:
     // Constructor, sets up pins
-    Motor(int pinIn1, int pinIn2, int pinPwm, int pinStby, int offset);
-    Motor() = default;
+    MotorController(uint8_t pinIn1, uint8_t pinIn2, uint8_t pinPwm, uint8_t pinStby, uint8_t offset);
+    MotorController() = default;
 
     // Drive motor forwards or backwards with offset in mind
-    // @param speed Motor speed
+    // @param speed MotorController speed
     void drive(int speed);
 
     // Set motor speed to 0
@@ -22,13 +22,13 @@ public:
 
 private:
     // Used in drive function
-    // @param speed Motor speed
-    void forward(int speed);
-    void reverse(int speed);
+    // @param speed MotorController speed
+    void forward(int16_t speed);
+    void reverse(int16_t speed);
 
 protected:
     // Pins
-    int m_in1, m_in2, m_pwm, m_standby, m_offset;
+    uint8_t m_in1, m_in2, m_pwm, m_standby, m_offset;
 };
 
 #endif
