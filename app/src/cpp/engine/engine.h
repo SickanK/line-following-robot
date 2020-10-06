@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "../motor/motor.h"
+#include "../motor/Motor.h"
 
 #ifndef ENGINE_H_INCLUDED
 #define ENGINE_H_INCLUDED

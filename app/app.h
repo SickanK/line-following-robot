@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-#include "src/cpp/engine/engine.h"
-#include "src/cpp/motor/motor.h"
-#include "src/cpp/lineSensor/lineSensor.h"
-#include "pins.h"
+#include "src/cpp/engine/Engine.h"
+#include "src/cpp/motor/Motor.h"
+#include "src/cpp/line-sensor/LineSensor.h"
+#include "Pins.h"

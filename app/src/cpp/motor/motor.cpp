@@ -1,4 +1,4 @@
-#include "motor.h"
+#include "Motor.h"
 
 Motor::Motor(int pinIn1, int pinIn2, int pinPwm, int pinStby, int offset)
     : m_in1(pinIn1), m_in2(pinIn2), m_pwm(pinPwm), m_standby(pinStby), m_offset(offset)

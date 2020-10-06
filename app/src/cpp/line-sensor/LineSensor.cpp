@@ -1,4 +1,4 @@
-#include "lineSensor.h"
+#include "LineSensor.h"
 
 LineSensor::LineSensor(int sensorPin)
     : pin(sensorPin)
