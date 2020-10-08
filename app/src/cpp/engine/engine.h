@@ -23,7 +23,7 @@ public:
 
     // Turns the vehicle @amount of degrees in any angle
     // @param amount Amount of turn in degrees
-    // @param direction Direction to turn
+    // @param direction Direction to turn, left or right
     //void turn(int amount, bool direction);
 
     // Vehicle stops and then turns @speed amount in @direction

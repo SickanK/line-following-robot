@@ -13,6 +13,10 @@ public:
     // @return Time it took for ultrasonic sensor to get back a result
     uint16_t trigger();
 
+    // Reads the distance in CM
+    // @return Distance in CM
+    uint8_t read();
+
 protected:
     uint8_t m_triggerPin, m_echoPin;
     uint16_t m_timeout, m_previousMicroseconds;

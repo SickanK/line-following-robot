@@ -24,3 +24,8 @@ uint16_t UltrasonicSensor::trigger()
 
     return micros() - m_previousMicroseconds;
 }
+
+uint8_t UltrasonicSensor::read()
+{
+    return trigger() / 28 / 2;
+}

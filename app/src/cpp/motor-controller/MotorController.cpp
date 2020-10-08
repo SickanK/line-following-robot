@@ -1,6 +1,6 @@
 #include "MotorController.h"
 
-MotorController::MotorController(uint8_t pinIn1, uint8_t pinIn2, uint8_t pinPwm, uint8_t pinStby, uint8_t offset)
+MotorController::MotorController(uint8_t pinIn1, uint8_t pinIn2, uint8_t pinPwm, uint8_t pinStby, int8_t offset)
     : m_in1(pinIn1), m_in2(pinIn2), m_pwm(pinPwm), m_standby(pinStby), m_offset(offset)
 {
     pinMode(m_in1, OUTPUT);
