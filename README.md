@@ -11,9 +11,9 @@ Basically a robot that's able to follow a line.
 
 ## Ports
 
-- Digitial
-  - In use = 9
-  - Available = 2
+- Digital
+  - In use = 10
+  - Available = 1
 - Analog
   - In use = 0
   - Available = 6
