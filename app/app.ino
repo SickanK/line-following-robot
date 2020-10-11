@@ -31,7 +31,6 @@ void app(LineSensor lineSensorLeft, LineSensor lineSensorRight, Engine engine)
     delay(50);
     lineSensorLeft.setReading();
   };
-
 }
 
 void setup()
