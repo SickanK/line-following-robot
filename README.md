@@ -4,8 +4,8 @@ Basically a robot that's able to follow a line.
 
 ## Components connected to board
 
-- KY-033 Tracking sensor module (2x)
-  - 2DP
+- KY-033 Tracking sensor module (3x)
+  - 3DP
 - SparkFun Motor Driver - Dual TB6612FNG (1x)
   - 7DP
 
@@ -17,16 +17,6 @@ Basically a robot that's able to follow a line.
 - Analog
   - In use = 0
   - Available = 6
-
-## Todo
-
-- Movement
-  - Turn x amount of degrees to left or right
-  - Go forward
-  - Go backwards
-  - Stop
-  - Line following sensor
-- Get status
 
 ## References
 
